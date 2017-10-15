@@ -1,6 +1,6 @@
 <?php
     define("TITLE", "Home | Latimer Development");
-    include('/includes/header.php');
+    include('includes/header.php');
 ?>
 
 <section class="cover">
@@ -16,7 +16,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-4" id="image">
-                <img src="images/ProfPicture1.png">
+                <img src="images/ProfPicture1.jpg">
             </div>
             <div class="col-sm-8">
                 <h2>About Latimer Development</h2>
@@ -26,19 +26,19 @@
     </div>   
 </section>
 <section class="services">
-    <h2 id="services">My Services</h2>
+    <h2>My Services</h2>
     <div class="grid">
-        <div class="hosting">
+        <div class="hosting box">
             <span class="glyphicon glyphicon-tasks icon"></span>
             <h3>Hosting</h3>
             <p>Not sure how to host your website? I can host your website using accounts I already have with my hosting provider! I can manage your website for you for a small monthly fee. This would include any updates that are required or changes that you wish to see! By hosting with me, you can reduce some costs compared to if you were to host it yourself as well as lessen the burden maintaining the site as I will do it for you!</p>
         </div>
-        <div class="webDev">
+        <div class="webDev box">
             <span class="glyphicon glyphicon-bookmark icon"></span>
             <h3>Web Development &amp; Design</h3>
             <p>Whether you have a design for your website already or are not sure what you want your site to look like, I can provide the perfect solution for you! I can design your website as well as develop it. Clients have the option to have their website developed through Wordpress or manually as well as add any plugins or special features they wish. If I haven't performed task before, I will learn how to just for your site!</p>
         </div>
-        <div class="custom">
+        <div class="custom box">
             <span class="glyphicon glyphicon-pushpin icon"></span>
             <h3>Fully-Customizeable</h3>
             <p>I do my absolute best to produce websites that are exactly what my client's want! I work closely with my clients through every step of the process to ensure the website is meeting their expectations. The wonderful part of web development is that a website can be designed in many different ways. If a client disagrees with a part of their site, I will gladly go in and change it!</p>
@@ -49,18 +49,18 @@
         <h2>My Portfolio</h2>
         <div class="portfolioGrid">
             <figure class="portfolio1">
-                <img class="image" src="images/TGK.jpg" alt="The Great Kingdom">
+                <img class="image" src="images/porftolioProject.png" alt="Portfolio project screenshot">
                 <figcaption>
-                    <h4>The Great Kingdom</h4>
-                    <p>Gaming community website made with node.js <strong>WIP!</strong></p>
+                    <h4>Portfolio Project</h4>
+                    <p>Projet for Udacity nanodegree</p>
                     <p><a href="#" class="btn btn-success" role="button">View</a></p>
                 </figcaption>
             </figure>
             <figure class="portfolio2">
-                <img class="image" src="images/PatatapClone.png" alt="Patatap Clone">
+                <img class="image" src="images/movie.jpg" alt="Movie website screenshot">
                 <figcaption>
-                    <h4>Patatap Clone</h4>
-                    <p>Class project made with HTML and jQuery</p>
+                    <h4>Movie Website</h4>
+                    <p>Website displaying movies and information</p>
                     <p><a href="http://latimerdevelopment.com/patatapclone/circles.html" class="btn btn-success" role="button">View</a></p>
                 </figcaption>
             </figure>
@@ -85,3 +85,6 @@
         </div>
     </div>
 </section>
+
+
+<?php include('includes/footer.php'); ?>
