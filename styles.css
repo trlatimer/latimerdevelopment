@@ -166,7 +166,7 @@ nav.navbar-inverse {
     text-align: center;
     margin: 5% auto;
     padding: 10px;
-    min-height:430px;
+    min-height:460px;
     min-width: 250px;
 }
 
@@ -198,7 +198,9 @@ section.portfolio {
 .portfolio figure {
     height: 380px;
     width: 25%;
-    margin: 0 auto
+    margin: 0 auto;
+    background: #e5e5e5;
+    color: black;
 }
 
 .portfolio figure img {
@@ -207,5 +209,90 @@ section.portfolio {
     margin: 0;
 }
 
+.portfolio h4 {
+    font-size: 22px;
+}
 
+.portfolio a {
+    background: #4498e7;
+    border: none;
+    box-shadow: 2px 2px #232323;
+}
 
+.portfolioLink {
+    margin-top: 30px;
+}
+
+/* =======================
+   CONTACT SECTION STYLES
+   =======================*/
+
+.contact {
+    text-align: center;
+    height: 100%;
+    background-image: url(images/webdev3.jpg);
+    background-size: cover;
+    background-position: center;
+    color: black;
+    padding-top: 4%;
+    padding-bottom: 3.5%;
+}
+
+.contactContainer {
+    width: 55%;
+    height: 76%;
+    background: #e5e5e5;
+    margin: 0 auto;
+    padding-top: 1%;
+    padding-bottom: 1.5%;
+}
+
+.content a {
+    background: #4498e7;
+    border: none;
+    box-shadow: 2px 2px #232323;
+}
+
+#content {
+    font-size: 18px;
+}
+
+/* ==================
+   FOOTER STYLES
+   ==================*/
+
+.footer {
+    margin: 0;
+    padding: 0;
+    color: white;
+    margin-top: 8px;
+}
+
+.footer ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+#phone {
+    margin-left: 48vw;
+}
+
+#email {
+    margin-left: 2vw;
+}
+
+@media screen and (max-width: 1000px){
+    #image {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .aboutContent {
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    
+    
+}
