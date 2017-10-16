@@ -23,7 +23,7 @@
             </div>
         </div> 
 </section>
-<section class="services">
+<section class="services" id="services">
     <h2>My Services</h2>
     <div class="grid">
         <div class="hosting box">
