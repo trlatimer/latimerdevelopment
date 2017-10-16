@@ -1,0 +1,68 @@
+/* ==================
+   CONTACT STYLES
+   ==================*/
+
+#contact {
+    height: 100%;
+    width: 100%;
+    background: #222;
+    margin-top: 50px;
+    padding-top: 1%;
+}
+
+#contactBox {
+    background: #e5e5e5;
+    margin: 3.6% auto;
+    height: 100%;
+    width: 35%;
+    color: black;
+    padding: 1% 4%;
+    text-align: center;
+}
+
+#contactBox form {
+    text-align: left;
+    padding-bottom: 2%;
+}
+
+form div {
+    margin-top: 2vh;
+    margin-left: 3vw;
+}
+
+#nameBox {
+    margin-top: 3vh;
+}
+
+#emailBox input{
+    margin: 0;
+}
+
+#phoneBox input{
+    margin: 0;
+}
+
+#message textarea {
+    height: 15vh;
+    width: 21vw;
+    min-width: 170px;
+}
+
+#submit {
+    margin-top: 2vh;
+    margin-left: 8vw;
+}
+
+@media screen and (max-width: 900px) {
+    #contactBox {
+        width: 80%;
+    }
+    
+    #contactBox form {
+        text-align: center;
+    }
+    
+    #message textarea {
+        width: 80%;
+    }
+}
