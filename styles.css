@@ -339,19 +339,28 @@ section.portfolio {
         font-size: 40px;
     }
     
-    .cover-text h2 {
-        font-size: 15px;
-    }
-    
     .box {
         width: 94%;
+    }
+    
+    .about h2 {
+        font-size: 28px;
+    }
+    
+    .about {
+        font-size: 15px;
     }
     
     .portfolio figure {
         width: 94%;
     }
     
+    #content {
+        font-size: 15px;
+    }
+    
     .footerContent {
         width: 100%;
+        font-size: 13px;
     }
 }
