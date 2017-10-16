@@ -1,9 +1,15 @@
 <div class="footer">
-    <ul class="footerlist">
-        <li id="copyright">&copy; <?php echo date('Y') ?> Latimer Development</li>
-        <li id="phone">Phone: 208-553-6162</li>
-        <li id="email">Email: trlatimer95@gmail.com</li>
-    </ul>
+    <div class="footerGrid">
+        <div id="copyright" class="footerContent">
+            &copy; <?php echo date('Y') ?> Latimer Development
+        </div>
+        <div id="phone" class="footerContent">
+            Phone: 208-553-6162
+        </div>
+        <div id="email" class="footerContent">
+            Email: trlatimer95@gmail.com
+        </div>
+    </div>
     
 </div>
 

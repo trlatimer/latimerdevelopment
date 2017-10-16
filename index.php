@@ -13,17 +13,15 @@
     </div>
 </section>
 <section class="about" id="about">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-4" id="image">
-                <img src="images/ProfPicture1.jpg">
+        <div class="aboutGrid">
+            <div class="aboutImage">
+                <img src="images/ProfPicture1.jpg" alt="Picture of me">
             </div>
-            <div class="col-sm-8 aboutContent">
+            <div class="aboutContent">
                 <h2>About Latimer Development</h2>
                 <p>My name is Tyler Latimer and I am a freelance web developer. I have recently embarked on the path of web development and have enjoyed every minute of it so far. Most of my knowledge in web development has been self-taught through online resources mixed with personal projects. I am also working to complete a Master's of Science in Information Technology with a concentration in Software Development. I plan to use this knowledge to help improve the quality of the projects I do for clients. I enjoy working on projects that challenge me and require me to learn more!</p>
             </div>
-        </div>
-    </div>   
+        </div> 
 </section>
 <section class="services">
     <h2>My Services</h2>
