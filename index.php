@@ -19,7 +19,7 @@
             </div>
             <div class="aboutContent">
                 <h2>About Latimer Development</h2>
-                <p>My name is Tyler Latimer and I am a freelance web developer. I have recently embarked on the path of web development and have enjoyed every minute of it so far. Most of my knowledge in web development has been self-taught through online resources mixed with personal projects. I am also working to complete a Master's of Science in Information Technology with a concentration in Software Development. I plan to use this knowledge to help improve the quality of the projects I do for clients. I enjoy working on projects that challenge me and require me to learn more!</p>
+                <p>My name is Tyler Latimer and I am a freelance web developer. I have recently embarked on the path of web development and have enjoyed every minute of it so far. Most of my knowledge in web development has been self-taught through online resources mixed with personal projects. I am also working to complete a Bachelor's of Science in Software Development. I plan to use this knowledge to help improve the quality of the projects I do for clients. I enjoy working on projects that challenge me and require me to learn more!</p>
             </div>
         </div> 
 </section>
@@ -47,27 +47,27 @@
         <h2>My Portfolio</h2>
         <div class="portfolioGrid">
             <figure class="portfolio1">
-                <img class="image" src="images/porftolioProject.png" alt="Portfolio project screenshot">
+                <img class="image" src="images/catalog.jpg" alt="Catalog Project">
                 <figcaption>
-                    <h4>Portfolio Project</h4>
-                    <p>Projet for Udacity nanodegree</p>
-                    <p><a href="#" class="btn btn-success" role="button">View</a></p>
+                    <h4>Outdoor Adventures</h4>
+                    <p>Catalog application using API's and a database</p>
+                    <p><a href="https://github.com/trlatimer/catalogproject" class="btn btn-success" role="button">View</a></p>
                 </figcaption>
             </figure>
             <figure class="portfolio2">
+                <img class="image" src="images/restaurantMenu.jpg" alt="Restaurant Menu Project">
+                <figcaption>
+                    <h4>Restaurant Menu</h4>
+                    <p>Project that focused on database construction and styling</p>
+                    <p><a href="https://github.com/trlatimer/restaurant_menu" class="btn btn-success" role="button">View</a></p>
+                </figcaption>
+            </figure>
+            <figure class="portfolio3">
                 <img class="image" src="images/movie.jpg" alt="Movie website screenshot">
                 <figcaption>
                     <h4>Movie Website</h4>
                     <p>Website displaying movies and information</p>
                     <p><a href="http://latimerdevelopment.com/patatapclone/circles.html" class="btn btn-success" role="button">View</a></p>
-                </figcaption>
-            </figure>
-            <figure class="portfolio3">
-                <img class="image" src="images/Orbit.png" alt="Orbit Project">
-                <figcaption>
-                    <h4>Orbit Project</h4>
-                    <p>Class project made with HTML and CSS</p>
-                    <p><a href="http://latimerdevelopment.com/orbitproject/orbit.html" class="btn btn-success" role="button">View</a></p>
                 </figcaption>
             </figure>
         </div>
